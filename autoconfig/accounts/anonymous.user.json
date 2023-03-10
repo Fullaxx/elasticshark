@@ -1,0 +1,9 @@
+{
+  "password" : "anonymous",
+  "roles" : [ "anonymous", "Packet_Viewer" ],
+  "full_name" : "Anonymous Read-Only Packet Viewing User",
+  "email" : "anonymous@something.tld",
+  "metadata" : {
+    "intelligence" : 7
+  }
+}

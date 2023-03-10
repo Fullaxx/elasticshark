@@ -1,0 +1,60 @@
+{
+  "order": 0,
+  "index_patterns": [
+    "packets-*"
+  ],
+  "settings": {
+    "index": {
+      "lifecycle": {
+        "name": "packets-lifecycle-policy",
+        "rollover_alias": "packets"
+      }
+    }
+  },
+  "mappings": {
+    "dynamic": false,
+    "properties": {
+      "timestamp": {
+        "type": "date"
+      },
+      "layers": {
+        "properties": {
+          "_ws.malformed": {
+            "properties": {}
+          },
+          "_ws.type_length": {
+            "properties": {}
+          },
+          "_ws.number_string.decoding_error": {
+            "properties": {}
+          },
+          "_ws.string": {
+            "properties": {}
+          },
+          "frame": {
+            "properties": {
+              "frame_frame_time": {
+                "type": "keyword"
+              },
+              "frame_frame_time_epoch": {
+                "type": "keyword"
+              },
+              "frame_frame_number": {
+                "type": "long"
+              },
+              "frame_frame_len": {
+                "type": "long"
+              },
+              "frame_frame_cap_len": {
+                "type": "long"
+              },
+              "frame_frame_protocols": {
+                "type": "keyword"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

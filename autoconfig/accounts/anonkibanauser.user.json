@@ -1,0 +1,9 @@
+{
+  "password" : "password",
+  "roles" : [ "Packet_Viewer", "anonymous" ],
+  "full_name" : "Packet Viewer",
+  "email" : "noone@something.tld",
+  "metadata" : {
+    "intelligence" : 7
+  }
+}

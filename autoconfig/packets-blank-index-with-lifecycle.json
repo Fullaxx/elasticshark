@@ -1,0 +1,7 @@
+{
+  "aliases": {
+    "packets": {
+      "is_write_index": true
+    }
+  }
+}

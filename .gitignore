@@ -1,0 +1,9 @@
+*~
+*.ndjson
+*.o
+*.exe
+*.dbg
+*.tar
+*.gz
+*.bz2
+*.xz
